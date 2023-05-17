@@ -17,8 +17,6 @@ def lambda_handler(event, context):
         response = transcribe.start_transcription_job(
             TranscriptionJobName=file_name.replace("/", ""),
             LanguageCode="en-US",
-            # MediaFormat=file_name[-3:],
-            # MediaFormat='ogg',
             Media={"MediaFileUri": object_url},
         )
 
