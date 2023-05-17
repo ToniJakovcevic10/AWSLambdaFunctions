@@ -1,0 +1,15 @@
+{
+	"Records": [
+		{
+			"s3": {
+				"bucket": {
+					"name": "audio--files--for--transcription",
+					"arn": "arn:aws:s3:::audio--files--for--transcription"
+				},
+				"object": {
+					"key": "key1"
+				}
+			}
+		}
+	]
+}
